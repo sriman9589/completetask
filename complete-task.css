@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(background-image-.jpg);
+
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid rgb(134, 132, 132);
+  background-color: white;
+}
+
+.h1 {
+  margin-left: 300px;
+  color: rgb(255, 255, 0);
+  opacity: 100%;
+
+}
+
+.left-portion,
+th {
+  text-align: center;
+
+}
+
+.tbl-2 {
+  padding: 5px;
+  width: 150%;
+  height: 150px;
+  margin-top: 50px;
+
+}
+
+.box1 {
+  width: 100%;
+  height: 270px;
+  border: 3px solid black;
+  color: black;
+
+}
+
+.btn-save {
+  border: none;
+}
+
+
+.save-btn {
+  background-color: aquamarine;
+  height: 100%;
+  width: 449%;
+
+}
+
+.save-btn:hover {
+  background-color: red;
+  transition: 0.15s;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  width: 90%;
+  margin: 3px;
+}
+
+.delete-btn:hover {
+  background-color: aquamarine;
+  transition: 0.15s;
+}
+
+
+
+.contentBox {
+  width: 97%;
+  height: 25px;
+
+}
+
+
+.container1,
+.container2,
+.container3 {
+  display: flex;
+}
+
+.detail-form1 {
+  margin-left: 15%;
+  width: 30%;
+  height: 200px;
+  margin-right: 100px;
+}
+
+.detail-form2 {
+  width: 500px;
+  margin-left: 6%;
+  height: 150px;
+}
+
+.container2 {
+  height: 250px;
+
+}
+
+.container3 {
+  height: 150px;
+}
+
+.titleName {
+  background-color: rgba(133, 35, 6, 0.795);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  opacity: 0.8;
+
+}
+
+.container {
+  margin-left: 25%;
+
+  @media screen {
+    max-width: 100%;
+    min-width: 1000px;
+
+  }
+
+}

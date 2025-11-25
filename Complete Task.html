@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="complete-task.css">
+
+<head>
+
+  <title>Student Form</title>
+  <link rel="stylesheet" href="complete-task.css">
+  <script src="complete task.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container1">
+
+      <div class="h1">
+        <nav class="titleName">
+          <h1>STUDENT FORM</h1>
+        </nav>
+      </div>
+
+    </div>
+    <div class="container2">
+      <div class="detail-form1">
+        <form>
+          <table class="box1">
+
+            <tr>
+              <td class="left-portion">Name</td>
+
+              <td><input type="text" id="inputValue1" class="contentBox" placeholder="Enter your name">
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="left-portion">Age</td>
+
+              <td><input type="number" id="inputValue2" class="contentBox" placeholder="Enter your Age"></td>
+
+            </tr>
+
+            <tr>
+              <td class="left-portion">Gender</td>
+              <td>
+                <input type="radio" name="gender" id="genderType" value="Male">
+                <label for="genderType">Male</label>
+                <input type="radio">
+                <lable>Female</lable>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="left-portion">Course</td>
+
+              <td><select id="myOption" class="contentBox">
+                  <option value="Python Programming">Python Programming</option>
+                  <option value="SQL">SQL</option>
+                  <option value="Java Script">Java Script</option>
+                  <option value="C++">C++</option>
+                  <option value=""></option>
+                </select>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="left-portion">E-mail</td>
+              <td><input id="inputValue5" type="text" placeholder="Enter Your E-mail" class="contentBox"></td>
+            </tr>
+
+            <tr>
+              <td style="border: none;">
+                <button class="save-btn" onclick="displayInputValue(event)">Save</button>
+              </td>
+            </tr>
+
+          </table>
+        </form>
+      </div>
+      <div>
+        <img class="picture" src="Untitled.png">
+      </div>
+
+
+    </div>
+
+
+
+    <div class="container3">
+      <div class="detail-form2">
+        <form>
+
+          <table class="tbl-2">
+            <tr>
+              <th id="nameinput">
+                NAME
+              </th>
+              <th>
+                AGE
+              </th>
+              <th>
+                Gender
+              </th>
+
+              <th>
+                COURSE
+              </th>
+
+              <th>
+                E-mail
+              </th>
+
+              <th>
+                ACTION
+              </th>
+            </tr>
+
+            <tr>
+              <td id="outputValue1"></td>
+              <td id="outputValue2"></td>
+              <td id="outputValue3"></td>
+              <td id="outputValue4"></td>
+              <td id="outputValue5"></td>
+              <td><button class="delete-btn" onclick="displayOutputValue (event)">Delete</button></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><button class="delete-btn" onclick="displayOutputValue (event)">Delete</button></td>
+            </tr>
+
+          </table>
+
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
